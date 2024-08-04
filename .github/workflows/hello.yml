@@ -14,7 +14,7 @@ jobs:
         run: echo "hello world !!"
         
       - name: print challo
-        run: echo "hello challo !!"
+        run: /cat/etc/os-reliase
 
   challoworld:
       runs-on: ubuntu-latest
