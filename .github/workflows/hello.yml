@@ -8,20 +8,11 @@ on:
 jobs:
   helloworld:
     runs-on: ubuntu-latest
+    container:
+      image: alpine:latest
 
     steps:
       - name: print hellow
-        run: echo "hello world !!"
-        
-      - name: print challo
-        run: /cat /etc/os-reliase
+        run: cat /etc/os-release
 
-  challoworld:
-      runs-on: ubuntu-latest
-
-      steps:
-        - name: print hellow
-          run: echo "hello world !!"
-        
-        - name: print challo
-          run: echo "hello challo !!"
+  
