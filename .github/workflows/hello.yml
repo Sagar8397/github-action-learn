@@ -19,4 +19,4 @@ jobs:
       - name: install java
         run: |
           apk add --no-cache openjdk11-jdk
-          run: java --version
+          java --version
